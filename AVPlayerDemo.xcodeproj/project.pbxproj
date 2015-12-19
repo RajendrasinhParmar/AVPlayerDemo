@@ -13,6 +13,7 @@
 		0959411A1C2573AC0011AFED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 095941181C2573AC0011AFED /* Main.storyboard */; };
 		0959411C1C2573AC0011AFED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0959411B1C2573AC0011AFED /* Assets.xcassets */; };
 		0959411F1C2573AC0011AFED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0959411D1C2573AC0011AFED /* LaunchScreen.storyboard */; };
+		095941271C25751C0011AFED /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 095941261C25751C0011AFED /* AVKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0959411B1C2573AC0011AFED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0959411E1C2573AC0011AFED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		095941201C2573AC0011AFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		095941261C25751C0011AFED /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				095941271C25751C0011AFED /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 		095941031C2573AB0011AFED = {
 			isa = PBXGroup;
 			children = (
+				095941261C25751C0011AFED /* AVKit.framework */,
 				0959410E1C2573AC0011AFED /* AVPlayerDemo */,
 				0959410D1C2573AC0011AFED /* Products */,
 			);
@@ -262,6 +266,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AVPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rgp.AVPlayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -273,6 +278,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AVPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rgp.AVPlayerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
