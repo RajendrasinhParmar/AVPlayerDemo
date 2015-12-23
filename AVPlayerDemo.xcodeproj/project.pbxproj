@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		093E7F4E1C2A718C0023D9E9 /* VideoPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093E7F4D1C2A718C0023D9E9 /* VideoPlayerViewController.m */; settings = {ASSET_TAGS = (); }; };
 		095941111C2573AC0011AFED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 095941101C2573AC0011AFED /* main.m */; };
 		095941141C2573AC0011AFED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 095941131C2573AC0011AFED /* AppDelegate.m */; };
 		095941171C2573AC0011AFED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095941161C2573AC0011AFED /* ViewController.m */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		093E7F4C1C2A718C0023D9E9 /* VideoPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoPlayerViewController.h; sourceTree = "<group>"; };
+		093E7F4D1C2A718C0023D9E9 /* VideoPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoPlayerViewController.m; sourceTree = "<group>"; };
 		0959410C1C2573AC0011AFED /* AVPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		095941101C2573AC0011AFED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		095941121C2573AC0011AFED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -71,6 +74,8 @@
 				0959411D1C2573AC0011AFED /* LaunchScreen.storyboard */,
 				095941201C2573AC0011AFED /* Info.plist */,
 				0959410F1C2573AC0011AFED /* Supporting Files */,
+				093E7F4C1C2A718C0023D9E9 /* VideoPlayerViewController.h */,
+				093E7F4D1C2A718C0023D9E9 /* VideoPlayerViewController.m */,
 			);
 			path = AVPlayerDemo;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				095941171C2573AC0011AFED /* ViewController.m in Sources */,
+				093E7F4E1C2A718C0023D9E9 /* VideoPlayerViewController.m in Sources */,
 				095941141C2573AC0011AFED /* AppDelegate.m in Sources */,
 				095941111C2573AC0011AFED /* main.m in Sources */,
 			);
