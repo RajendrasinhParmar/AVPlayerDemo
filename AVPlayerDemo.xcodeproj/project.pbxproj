@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		093E7F481C2A6F820023D9E9 /* AVPlayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 093E7F471C2A6F820023D9E9 /* AVPlayerViewController.m */; settings = {ASSET_TAGS = (); }; };
 		095941111C2573AC0011AFED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 095941101C2573AC0011AFED /* main.m */; };
 		095941141C2573AC0011AFED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 095941131C2573AC0011AFED /* AppDelegate.m */; };
 		095941171C2573AC0011AFED /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 095941161C2573AC0011AFED /* ViewController.m */; };
@@ -18,8 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		093E7F461C2A6F820023D9E9 /* AVPlayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayerViewController.h; sourceTree = "<group>"; };
-		093E7F471C2A6F820023D9E9 /* AVPlayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayerViewController.m; sourceTree = "<group>"; };
 		0959410C1C2573AC0011AFED /* AVPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		095941101C2573AC0011AFED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		095941121C2573AC0011AFED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,8 +67,6 @@
 				095941151C2573AC0011AFED /* ViewController.h */,
 				095941161C2573AC0011AFED /* ViewController.m */,
 				095941181C2573AC0011AFED /* Main.storyboard */,
-				093E7F461C2A6F820023D9E9 /* AVPlayerViewController.h */,
-				093E7F471C2A6F820023D9E9 /* AVPlayerViewController.m */,
 				0959411B1C2573AC0011AFED /* Assets.xcassets */,
 				0959411D1C2573AC0011AFED /* LaunchScreen.storyboard */,
 				095941201C2573AC0011AFED /* Info.plist */,
@@ -160,7 +155,6 @@
 			files = (
 				095941171C2573AC0011AFED /* ViewController.m in Sources */,
 				095941141C2573AC0011AFED /* AppDelegate.m in Sources */,
-				093E7F481C2A6F820023D9E9 /* AVPlayerViewController.m in Sources */,
 				095941111C2573AC0011AFED /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
