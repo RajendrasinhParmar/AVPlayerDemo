@@ -25,9 +25,9 @@
 }
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
-    
+    //TODO : we can use this code clock to initialize the Video Player before opening the controller view. however logic to play video is moved to the file VideoPlayerViewController file to make it encapsulated to the controller it's using.
 //    AVPlayerViewController *destination = segue.destinationViewController;
-//    NSURL *videoUrl = [[NSURL alloc] initWithString:@"http://mdollarideas.com/swastik_webservices/uploads/testimonial_videos/6755v8.mp4"];
+//    NSURL *videoUrl = [[NSURL alloc] initWithString:@"VIDEO_URL_HERE"];
 //    destination.player = [[AVPlayer alloc]initWithURL:videoUrl];
 //    [destination.player play];
 }
