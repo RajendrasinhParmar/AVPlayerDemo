@@ -7,6 +7,7 @@
 //
 
 #import <AVKit/AVKit.h>
+#import <AVFoundation/AVFoundation.h>
 
 @interface VideoPlayerViewController : AVPlayerViewController
 

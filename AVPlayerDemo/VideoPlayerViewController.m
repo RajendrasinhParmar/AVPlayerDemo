@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    NSURL *videoUrl = [[NSURL alloc] initWithString:@"http://localhost:8888/VID_20151128_202115405.mp4"];
+    self.player = [[AVPlayer alloc]initWithURL:videoUrl];
+    [self.player play];
 }
 
 - (void)didReceiveMemoryWarning {
